@@ -50,6 +50,14 @@ public class MaxHeap {
     }
 
     /**
+     * Returns the heap as an array
+     * @return the heap as an array
+     */
+    public int[] getHeap(){
+        return this.arr;
+    }
+
+    /**
      * Turns the max heap into a sorted array
      * @return the sorted array
      */
